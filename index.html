@@ -1,10 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Test Page</title>
+  <meta charset="UTF-8">
+  <title>Font Test</title>
+  <style>
+    @font-face {
+      font-family: 'Nasalization';
+      src: url('Nasalization.otf') format('opentype');
+    }
+    body {
+      font-family: 'Nasalization', sans-serif;
+      padding: 40px;
+      background: #f2f2f2;
+      text-align: center;
+    }
+    h1 {
+      font-size: 48px;
+    }
+    p {
+      font-size: 20px;
+    }
+  </style>
 </head>
 <body>
   <h1>Hello, GitHub Pages!</h1>
-  <p>If you see this, your site is working.</p>
+  <p>This text uses the Nasalization font.</p>
 </body>
 </html>
